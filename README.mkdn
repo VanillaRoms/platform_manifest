@@ -28,13 +28,12 @@ Initialize the environment running:
 
     . build/envsetup.sh
 
+To enter the menue:
 
-Build script
--------------
+    lunch
+    
+Now search for your device number and enter the number
 
-To start compiling VanillaUnicorn run:
-
-    . build/compile.sh
 
 If you have any issues/questions please contact us on g+
 --------------------------------------------------------
