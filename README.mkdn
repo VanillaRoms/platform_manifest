@@ -28,7 +28,7 @@ Initialize the environment running:
 
     . build/envsetup.sh
 
-To enter the menue:
+To enter the menu:
 
     lunch
     
