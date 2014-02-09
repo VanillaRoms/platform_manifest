@@ -6,20 +6,6 @@ Getting Started
 To get started with VanillaUnicorn-Dev sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-Submitting Patches to VanillaUnicorn Gerrit
-----------------------------------------
-
-First of all you will need to register, set up your SSH and username.
-Then you will only need to follow that steps:
-
-1. cd "folder"
-That second step must be done on every folder you want to commit to.
-2. scp -p -P 29418 <username>@97.81.45.99:hooks/commit-msg .git/hooks/
-Now make your changes or cherry-picks. Be sure after editing files there is not example.xml~ , if that files are not deleted they will be added to commit on gerrit.
-3. git add -A
-4. git commit -m "Commit Message"
-5. git push ssh://<username>@97.81.45.99:29418/<project> HEAD:refs/for/4.4
-
 
 Creating Directories and Installing Repositories
 ------------------------------------------------
