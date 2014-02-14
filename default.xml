@@ -8,16 +8,16 @@
   <remote  name="vu"
            fetch="https://github.com/"
 
-  <remote  name="aokp"
-           fetch="https://github.com/"
-           review="gerrit.aokp.co" />
-
   <remote  name="cm"
            fetch="https://github.com/" />
 
   <remote name="omni"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
+           
+  <remote  name="aokp"
+           fetch="https://github.com/"
+           review="gerrit.aokp.co" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
