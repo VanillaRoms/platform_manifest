@@ -24,6 +24,7 @@
            sync-j="4" />
 
   <project path="build" name="VanillaUnicorn/build" remote="aokp" revision="kitkat" groups="pdk">
+  <project path="platform_manifest" name="VanillaUnicorn/platform_manifest" remote="vu" revision="kitkat" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
