@@ -7,8 +7,8 @@ To get started with VanillaUnicorn-Dev sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 
-Creating Directories and Installing Repositories
-------------------------------------------------
+Creating Directories 
+---------------------
 
 You will need to set up some directories in your build environment:
 
@@ -18,8 +18,41 @@ You will need to set up some directories in your build environment:
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     chmod a+x ~/bin/repo
     cd ~/vu
-    repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,kernel,device,vendor
-    repo sync -jx(x=numbers of core, we would recommend to use 4)
+
+
+Initializing Repository
+-----------------------
+
+Init core trees without any device/kernel/vendor :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat
+
+Init repo with all devices, kernels and vendors supported by VanillaUnicorn :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,kernel,device,vendor
+
+Init repo only for a particular device :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
+
+for example, to init only trees needed to build mako :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,mako,lge
+
+Init repo for multiple devices :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
+
+for example, to init trees needed to build mako and flo :
+
+    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,mako,flo,lge,asus
+
+
+sync repo :
+
+    $ repo sync
+
+
 
 Building the System
 -------------------
