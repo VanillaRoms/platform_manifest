@@ -46,11 +46,10 @@
   <!--Nexus Devices -->
   <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
-  <project path="device/lge/mako" name="VanillaUnicorn/android_device_lge_mako" remote="vu" revision="illusion-4.4" groups="notdefault,device,mako" />
+  <project path="device/lge/mako" name="VanillaUnicorn/device_lge_mako" remote="vu" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/lge/hammerhead" name="VanillaUnicorn/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
   
-  <!-- Custom Kernel -->
-  <project path="kernel/lge/AK" name="VanillaUnicorn/AK-VU" remote="vu" revision="illusion-4.4" />
+  
   
   <!-- Devices -->
   <project path="device/common" name="device/common" groups="device" />
@@ -341,7 +340,7 @@
   <project path="kernel/htc/msm8960" name="AOKP/kernel_htc_msm8960" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7spr,m7vzw" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
-  <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
+  <project path="kernel/lge/mako" name="VanillaUnicorn/kernel_lge_mako" remote="vu" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/motorola/msm8960dt" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find5" />
