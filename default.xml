@@ -44,8 +44,6 @@
   <project path="platform_manifest" name="VanillaUnicorn/platform_manifest" remote="aokp" revision="kitkat" />
   
   <!--Nexus Devices -->
-  <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo" />
-  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/lge/mako" name="VanillaUnicorn/device_lge_mako" remote="vu" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/lge/hammerhead" name="VanillaUnicorn/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
   
