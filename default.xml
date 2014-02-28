@@ -47,8 +47,8 @@
   <project path="device/lge/mako" name="VanillaUnicorn/device_lge_mako" remote="vu" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/lge/hammerhead" name="VanillaUnicorn/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/ls970" name="VanillaUnicorn/device_lge_ls970" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
-  <project path="device/lge/ls970" name="VanillaUnicorn/device_lge_ls970-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
-  <project path="device/lge/gproj" name="VanillaUnicorn/device_lge_gproj-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
+  <project path="device/lge/ls970/common" name="VanillaUnicorn/device_lge_ls970-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
+  <project path="device/lge/gproj/common" name="VanillaUnicorn/device_lge_gproj-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
   
   <!-- Devices -->
   <project path="device/common" name="device/common" groups="device" />
