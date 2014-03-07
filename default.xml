@@ -33,7 +33,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
+  <project path="dalvik" name="VanillaUnicorn/dalvik" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -287,7 +287,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-11.0" />
+  <project path="external/skia" name="VanillaUnicorn/external_skia" remote="aokp" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
