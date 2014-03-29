@@ -71,7 +71,7 @@
   <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr,m7vzw" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
   <project path="device/htc/m7vzw" name="AOKP/device_htc_m7vzw" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7vzw" />
-  <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr,m7vzw,evita" />
+  <project path="device/htc/msm8960-common" name="VanillaUnicorn/android_device_htc_msm8960-common" remote="vu" revision="stable/cm-11.0" groups="notdefault,device,m7,m7spr,m7vzw,evita" />
   <project path="device/lge/d800" name="AOKP/device_lge_d800" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800" />
   <project path="device/lge/d801" name="VanillaUnicorn/device_lge_d801" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d801" />
   <project path="device/lge/d802" name="AOKP/device_lge_d802" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d802" />
@@ -386,6 +386,7 @@
   <!-- Kernel -->
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" groups="notdefault,kernel,grouper" />
+  <project path="kernel/htc/m7" name="VanillaUnicorn/android_kernel_htc_m7" remote="vu" revision="stable/cm-11.0" groups="notdefault,kernel,grouper" />
   <project path="kernel/htc/msm8960" name="AOKP/kernel_htc_msm8960" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7spr,m7vzw" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
