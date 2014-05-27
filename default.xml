@@ -69,7 +69,7 @@
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/pollux-common" name="AOKP/device_sony_pollux-common" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
-  <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/yuga" name="VanillaUnicorn/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/htc/m7" name="AOKP/device_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,device,m7" />
   <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr,m7vzw" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
