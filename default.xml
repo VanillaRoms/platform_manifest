@@ -541,7 +541,9 @@
   <project path="vendor/vanilla" name="VanillaUnicorn/vendor_vanilla" remote="aokp" revision="vu-kitkat" />
   <project path="vendor/lge" name="VanillaUnicorn/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/asus" name="VanillaUnicorn/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
-
+  <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="kitkat" />
+  <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
+  
   <!-- Theme -->
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0" />
