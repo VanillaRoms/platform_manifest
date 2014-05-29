@@ -313,7 +313,7 @@
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/base" name="VanillaUnicorn/frameworks_base" remote="aokp" revision="vu-kitkat" />
+  <project path="frameworks/base" name="VanillaUnicorn/frameworks_base" remote="aokp" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -437,8 +437,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
-  <project path="packages/apps/ROMControl" name="VanillaUnicorn/packages_apps_ROMControl" remote="aokp" revision="vu-kitkat" />
-  <project path="packages/apps/Settings" name="VanillaUnicorn/packages_apps_Settings" remote="aokp" revision="backup" />
+  <project path="packages/apps/ROMControl" name="VanillaUnicorn/packages_apps_ROMControl" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Settings" name="VanillaUnicorn/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
