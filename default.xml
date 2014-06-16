@@ -471,13 +471,13 @@
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="VanillaRoms/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="AOKP/packages_services_Telephony" remote="aokp" revision="kitkat" />
+  <project path="packages/services/Telephony" name="VanillaRoms/packages_services_Telephony" remote="aokp" revision="kitkat" />
   <project path="packages/themes/KitKatWhite" name="AOKP/packages_themes_KitKatWhite" remote="aokp" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="notdefault" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="notdefault" />
