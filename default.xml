@@ -568,7 +568,7 @@
 -->
 
    <!-- Vendors -->
-  <project path="vendor/vanilla" name="VanillaUnicorn/vendor_vanilla" remote="aokp" revision="kitkat" />
+  <project path="vendor/vanilla" name="VanillaUnicorn/vendor_vanilla" remote="aokp" revision="vu-kitkat" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
