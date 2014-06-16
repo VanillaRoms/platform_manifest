@@ -16,6 +16,9 @@
   <remote name="omni"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
+           
+  <remote  name="vu"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
