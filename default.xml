@@ -217,7 +217,7 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="kitkat" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="VanillaUnicorn/Superuser" remote="vu" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" />
@@ -335,6 +335,7 @@
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
+  <project path="frameworks/opt/cards" name="VanillaUnicorn/frameworks_opt_cards" remote="aokp" revision="kk4.4" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
   <project path="frameworks/opt/datetimepicker" name="AOKP/frameworks_opt_datetimepicker" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
