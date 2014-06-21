@@ -110,6 +110,9 @@
   <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
   <project path="device/sony/huashan" name="AOKP/device_sony_huashan" remote="aokp" revision="kitkat" groups="notdefault,device,huashan" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="device/lge/ls970" name="VanillaUnicorn/device_lge_ls970" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
+  <project path="device/lge/ls970/common" name="VanillaUnicorn/device_lge_ls970-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
+  <project path="device/lge/gproj/common" name="VanillaUnicorn/device_lge_gproj-common" remote="vu" revision="cm-11.0" groups="notdefault,device,mako" />
   
    <!-- External -->
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" />
