@@ -94,9 +94,9 @@
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/shinano-common" name="AOKP/device_sony_shinano-common" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
   <project path="device/sony/sirius" name="AOKP/device_sony_sirius" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
-  <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari,amami" />
+  <project path="device/sony/rhine-common" name="VanillaRoms/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari,amami" />
   <project path="device/sony/amami" name="AOKP/device_sony_amami" remote="aokp" revision="kitkat" groups="notdefault,device,amami" />
-  <project path="device/sony/honami" name="VanillaUnicorn/device_sony_honami" remote="aokp" revision="kitkat" groups="notdefault,device,honami" />
+  <project path="device/sony/honami" name="VanillaRoms/device_sony_honami" remote="aokp" revision="kitkat" groups="notdefault,device,honami" />
   <project path="device/sony/togari" name="AOKP/device_sony_togari" remote="aokp" revision="kitkat" groups="notdefault,device,togari" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga,odin,pollux,dogo" />
   <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="kitkat" groups="notdefault,device,dogo" />
