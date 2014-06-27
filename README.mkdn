@@ -25,27 +25,11 @@ Initializing Repository
 
 Init core trees without any device/kernel/vendor :
 
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat
+    $ repo init -u https://github.com/VanillaRoms/platform_manifest.git -b kitkat
 
 Init repo with all devices, kernels and vendors supported by VanillaUnicorn :
 
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,kernel,device,vendor
-
-Init repo only for a particular device :
-
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
-
-for example, to init only trees needed to build mako :
-
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,mako,lge
-
-Init repo for multiple devices :
-
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
-
-for example, to init trees needed to build mako and flo :
-
-    $ repo init -u https://github.com/VanillaUnicorn/platform_manifest.git -b kitkat -g all,-notdefault,mako,flo,lge,asus
+    $ repo init -u https://github.com/VanillaRoms/platform_manifest.git -b kitkat -g all,kernel,device,vendor
 
 
 sync repo :
@@ -65,7 +49,8 @@ To enter the menu:
 
     lunch
     
-Now search for your device number and enter the number
+Now search for your device number and enter the number.
+You can also use "brunch (Devicename)" 
 
 
 If you have any issues/questions please contact us on g+
