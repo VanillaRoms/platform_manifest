@@ -80,6 +80,14 @@
   <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,sony,vs980,hlte,m7,m7vzw,m7spr" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2lte" name="AOKP/device_samsung_d2lte" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte" />
+  <project path="device/samsung/msm8930-common" name="AOKP/device_samsung_msm8930-common" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
+  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte" />
+  <project path="device/samsung/msm8974-common" name="AOKP/device_samsung_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hercules,hlte" />
+  <project path="device/samsung/serranoltexx" name="AOKP/device_samsung_serranoltexx" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
+  <project path="device/samsung/serrano-common" name="AOKP/device_samsung_serrano-common" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
+  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
+  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/semc/mogami-common" name="AOKP/device_semc_mogami-common" remote="aokp" revision="kitkat" groups="notdefault,device,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
   <project path="device/semc/anzu" name="AOKP/device_semc_anzu" remote="aokp" revision="kitkat" groups="notdefault,device,anzu" />
   <project path="device/semc/coconut" name="AOKP/device_semc_coconut" remote="aokp" revision="kitkat" groups="notdefault,device,coconut" />
